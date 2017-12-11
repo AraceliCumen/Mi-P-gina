@@ -33,7 +33,7 @@
   }
   
   .bg-reverse {
-    background-color: #383e42;
+    background-color: #c23376;
     color: #ffffff;
   }
   
@@ -59,12 +59,12 @@
     float: right;
   }
   
-  h1 {
+ header h1 {
     font-size: 4rem;
     font-weight: 300;
   }
   
-  h2 {
+  header h2 {
     font-size: 4.5rem;
     font-weight: 300;
   }
@@ -84,25 +84,9 @@
     background: rgba(0, 0, 0, 0.6);
     padding: 5rem 0;
   }
-  
-  .text-rock, figure {
-    color: #393939;
-    padding: 3rem 4.5rem;
-    display: inline-block;
-    align-self: center;
-  }
-  
-  .text-rock p {
-    line-height: 1.5;
-  }
-  
-  .img-circle {
-    border-radius: 50%;
-    width: 100%;
-  }
-  
+   
   footer {
-    padding: 3rem;
+    padding: 1.5rem;
   }
   
   .col-section {
