@@ -75,7 +75,7 @@
   }
   
   .bg-header {
-    background-image: url("../assets/images/header.jpg");
+    background-image: url('../assets/img/header.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
