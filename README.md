@@ -13,5 +13,5 @@ El diseño lo puedes realizar como mejor te parezca, pero debes mantener la estr
 
 ## Resultados
 
-![Resultados](assets/img/desktop.png "Resultado 1")
-![Resultados](assets/img/responsive.PNG "Resultado 2")
+![Resultados](assets/img/result1.PNG "Resultado 1")
+![Resultados](assets/img/result2.PNG "Resultado 2")

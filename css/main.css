@@ -30,6 +30,7 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    padding: 0;
   }
   
   .bg-reverse {
@@ -84,11 +85,7 @@
     background: rgba(0, 0, 0, 0.6);
     padding: 5rem 0;
   }
-   
-  footer {
-    padding: 1.5rem;
-  }
-  
+
   .col-section {
     width: 100%;
   }
@@ -100,30 +97,105 @@
   .view-desktop {
     display: none;
   }
+
+  .section{
+    margin: 0 1rem;
+}
+
+.senior-column{
+  /* outline: 1px solid blue; */
+  padding-top: 20px;
+}
+
+.senior-column p{
+   margin:15px 0;
+   /* outline: 1px solid blue; */
+}
+
   
   /* estilos solo para desktop*/
   ul li {
     display: inline-block;
     padding: 5px 15px;
   }
+
+  .minor-column{
+    /* outline: 1px solid red; */
+    padding-top: 20px;
+ }
+
+ .container-big{
+  /* outline: 1px solid blue; */
+  overflow: auto;
+  margin-top: 10px;
+
+}
+
+.container-small{
+   /* outline: 1px solid green; */
+   overflow: hidden;
+   padding-bottom: 30px;
+}
+
+.image{
+  width: 100%;
+}
+
+.three-columns{
+  width: 100%;
+  border: 1px solid #AAAFC8;
+  margin-bottom: 30px;
+}
+
+.information{
+  border-bottom: 1px solid rgb(191, 197, 224);
+  padding: 20px;
+  
+}
+
+.information p:nth-child(1){
+  font-size: 25px;
+  color: rgb(110, 44, 71);
+  font-weight: 500;
+}
+
+.button{
+  padding: 20px;
+  background: rgb(208, 220, 226) ;
+}
+
+.link{
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: rgb(228, 35, 125);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.information-small{
+  margin: 15px 0;
+}
+
+.fa-phone::before, .fa-envelope-o::before{
+  color:rgb(216, 39, 128);
+  font-size: 1.5rem;
+  margin-right: 8px;
+}
+   
+  footer {
+    padding: 1.5rem;
+  }
+  
+ 
   
   @media (min-width: 768px) {
-     .col-section {
-      width: 50%;
-      float: left;
-    }
-  
+
     section {
       overflow: auto;
       display: flex;
+      margin: 0 7rem;
     }
-  
-    .text-rock {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-  
+
     .overlay {
       padding: 10rem 0;
     }
@@ -135,6 +207,27 @@
     .view-desktop {
       display: block;
     }
+
+    .senior-column{
+      width: 58.333333333333336%;
+      float: left;
+  }
+
+  .minor-column{
+      width: 41.66666666666667%;
+      float: left;
+      padding-left: 80px;
+  }
+  
+  .three-columns{
+      width: 31.3333333%;
+      float: left;
+      /* margin-right: 20px; */
+  }
+
+  .margin{
+      margin-left: 3%;
+  }    
   }
   
   @media (min-width: 1200px) {
